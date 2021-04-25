@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct OutcomeView: View {
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
     let showFinishedOutcomes: Bool
     let outcomes: FetchRequest<Outcome>
     
@@ -20,9 +22,9 @@ struct OutcomeView: View {
         NavigationView {
             List {
                 ForEach(outcomes.wrappedValue) { outcome in
-                    Section(header: Text(outcome.title ?? "")) {
-                        ForEach(outcome.indicators?.allObjects as? [Indicator] ?? []) { indicator in
-                            Text(indicator.title ?? "")
+                    Section(header: Text(outcome.outcomeTitle)) {
+                        ForEach(outcome.outcomeIndicators) { indicator in
+                            IndicatorRowView(indicator: indicator)
                         }
                     }
                 }

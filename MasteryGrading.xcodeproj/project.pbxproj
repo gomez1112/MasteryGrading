@@ -10,6 +10,11 @@
 		CC250F6C2634D7C700A1619E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC250F6B2634D7C700A1619E /* CloudKit.framework */; };
 		CC250F6E2634D8AB00A1619E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F6D2634D8AB00A1619E /* HomeView.swift */; };
 		CC250F712634D95500A1619E /* OutcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F702634D95500A1619E /* OutcomeView.swift */; };
+		CC250F742634E0DD00A1619E /* Indicator-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F732634E0DD00A1619E /* Indicator-CoreDataHelpers.swift */; };
+		CC250F782634E20C00A1619E /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F772634E20C00A1619E /* Project-CoreDataHelpers.swift */; };
+		CC250F7B2635031800A1619E /* EditIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F7A2635031800A1619E /* EditIndicatorView.swift */; };
+		CC250F7E263506C600A1619E /* IndicatorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F7D263506C600A1619E /* IndicatorRowView.swift */; };
+		CC250F81263507AF00A1619E /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC250F80263507AF00A1619E /* Binding-OnChange.swift */; };
 		CC9A73552634CBC2000F233F /* MasteryGradingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A73542634CBC2000F233F /* MasteryGradingApp.swift */; };
 		CC9A73572634CBC2000F233F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A73562634CBC2000F233F /* ContentView.swift */; };
 		CC9A73592634CBC3000F233F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9A73582634CBC3000F233F /* Assets.xcassets */; };
@@ -23,6 +28,11 @@
 		CC250F6B2634D7C700A1619E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		CC250F6D2634D8AB00A1619E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CC250F702634D95500A1619E /* OutcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeView.swift; sourceTree = "<group>"; };
+		CC250F732634E0DD00A1619E /* Indicator-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Indicator-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CC250F772634E20C00A1619E /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CC250F7A2635031800A1619E /* EditIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIndicatorView.swift; sourceTree = "<group>"; };
+		CC250F7D263506C600A1619E /* IndicatorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorRowView.swift; sourceTree = "<group>"; };
+		CC250F80263507AF00A1619E /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		CC9A73512634CBC2000F233F /* MasteryGrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteryGrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9A73542634CBC2000F233F /* MasteryGradingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteryGradingApp.swift; sourceTree = "<group>"; };
 		CC9A73562634CBC2000F233F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,8 +86,13 @@
 				CC250F682634D7A400A1619E /* MasteryGrading.entitlements */,
 				CC9A73542634CBC2000F233F /* MasteryGradingApp.swift */,
 				CC9A73562634CBC2000F233F /* ContentView.swift */,
+				CC250F7A2635031800A1619E /* EditIndicatorView.swift */,
+				CC250F732634E0DD00A1619E /* Indicator-CoreDataHelpers.swift */,
+				CC250F772634E20C00A1619E /* Project-CoreDataHelpers.swift */,
 				CC250F6D2634D8AB00A1619E /* HomeView.swift */,
 				CC250F702634D95500A1619E /* OutcomeView.swift */,
+				CC250F80263507AF00A1619E /* Binding-OnChange.swift */,
+				CC250F7D263506C600A1619E /* IndicatorRowView.swift */,
 				CC9A73682634D07A000F233F /* DataController.swift */,
 				CC9A73642634CD68000F233F /* Main.xcdatamodeld */,
 				CC9A73582634CBC3000F233F /* Assets.xcassets */,
@@ -166,10 +181,15 @@
 			files = (
 				CC9A73662634CD68000F233F /* Main.xcdatamodeld in Sources */,
 				CC9A73692634D07A000F233F /* DataController.swift in Sources */,
+				CC250F782634E20C00A1619E /* Project-CoreDataHelpers.swift in Sources */,
+				CC250F7B2635031800A1619E /* EditIndicatorView.swift in Sources */,
 				CC9A73572634CBC2000F233F /* ContentView.swift in Sources */,
 				CC250F712634D95500A1619E /* OutcomeView.swift in Sources */,
+				CC250F81263507AF00A1619E /* Binding-OnChange.swift in Sources */,
 				CC250F6E2634D8AB00A1619E /* HomeView.swift in Sources */,
+				CC250F7E263506C600A1619E /* IndicatorRowView.swift in Sources */,
 				CC9A73552634CBC2000F233F /* MasteryGradingApp.swift in Sources */,
+				CC250F742634E0DD00A1619E /* Indicator-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
